@@ -1,0 +1,19 @@
+
+server:
+  port: 2222
+spring:
+  application:
+    name: config-cloud-server
+  cloud:
+    config:
+      server:
+        git:
+          search-paths: repository
+          username: luyan-luffy
+          password: luyanluffy123
+          uri: https://github.com/luyan-luffy/springcloud1.git
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
