@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud_config_client" />
+        <module name="serice-feign" />
         <module name="service-zuul" />
         <module name="service-miya" />
         <module name="config-server" />
         <module name="scfchapter1" />
         <module name="eureka-server" />
-        <module name="springcloud_config_server" />
         <module name="service-hi" />
         <module name="service-ribbon" />
         <module name="config-client" />
+        <module name="springcloud_config_server" />
         <module name="service-hizk" />
-        <module name="serice-feign" />
+        <module name="springcloud_config_client" />
       </profile>
     </annotationProcessing>
   </component>
