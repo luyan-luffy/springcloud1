@@ -12,7 +12,7 @@ spring:
           username: luyan-luffy
           password: luyanluffy123
           uri: https://github.com/luyan-luffy/springcloud1.git
-      label: master
+      label: testcloud1
 eureka:
   client:
     serviceUrl:

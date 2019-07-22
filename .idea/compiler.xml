@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_config_client" />
         <module name="service-zuul" />
         <module name="service-miya" />
         <module name="config-server" />
@@ -32,6 +33,7 @@
       <module name="service-miya" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="service-zuul" options="-parameters" />
+      <module name="springcloud_config_client" options="-parameters" />
       <module name="springcloud_config_server" options="-parameters" />
     </option>
   </component>
